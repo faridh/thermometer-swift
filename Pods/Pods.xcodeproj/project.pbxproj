@@ -1,0 +1,1239 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		095406039B4D371E48D08B38A2975AC8 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA137B327AFCAA80A7081E8DA7CCE0D /* Error.swift */; };
+		0F09B9486ECFAFED088754AF63EBDA9E /* HexColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F1756150F13BECC8752E5EA655794A2 /* HexColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1491F28E10D35EF816E7CFA8C17AFDA7 /* Pods-thermometer-swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62444D922FAB7FEDE49D41E231B939EE /* Pods-thermometer-swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16102E4E35FAA0FC4161282FECE56469 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECC2EBB108D01ED01BE7474A4BB428D /* Timeline.swift */; };
+		173E7145BA69C3B751B48E424BE97E6C /* Shimmer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 937E3EE8B60174327C72632637DFB43E /* Shimmer-dummy.m */; };
+		18C77C96DD97A7DEB8808656D9440C3A /* NotificationBackgroundSuccess@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6DC59C6DA1062F9C6987A007C3872F /* NotificationBackgroundSuccess@2x.png */; };
+		1A968D66C16C3F3AF20CCA0ED69433ED /* NotificationBackgroundSuccess.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A49266A80D897897398CCCEB7B4CBD0 /* NotificationBackgroundSuccess.png */; };
+		2D3405986FC586FA6C0A5E0B6BA7E64E /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA94D8A2545D34CE6CD91B5F7ABA8A /* Validation.swift */; };
+		34CCDCA848A701466256BC2927DA8856 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9610EB883F2BB7EAAE837837F7D19BB6 /* NetworkReachabilityManager.swift */; };
+		38D904B33176273A405C4796D1760D0A /* TSMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6F5470E91111F3DB13A071ACEFE96 /* TSMessage.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3EA8F215C9C1432D74E5CCA4834AA8C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99873A10801AC3E5F6CE716C51674F47 /* ResponseSerialization.swift */; };
+		3EBF4447A8B0F149A433C58FE985E9C0 /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65ACA49698B615FA374A32B885DF60B0 /* FBShimmeringView.m */; };
+		4081EA628AF0B73AC51FFB9D7AB3B89E /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8366106B2C3EB2728283C625B9CE422 /* Manager.swift */; };
+		46654EF9D3EC80A2DC4F2EA829EDD773 /* TSMessageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D5DF7A54C668123367A72CDAACAC33A /* TSMessageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E5022D7A62E87C178761A0185D03278 /* NotificationBackgroundMessage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E868A280D6717158ED9E5CC9CA51E37A /* NotificationBackgroundMessage@2x.png */; };
+		4E9BEEB5CE1CE2FA43D0A7CA77A306E7 /* NotificationBackgroundErrorIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 80855C40F54A4E476D5EE24C4D06C8F8 /* NotificationBackgroundErrorIcon.png */; };
+		5020A63E3B486942DE3B6B8370DFB2F7 /* TSBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 957DE9E3F98F203572921DA8BDFCD444 /* TSBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BC19E6E0F199276003F0AF96838BCE5 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7341ECAD6E4F3B3A0420881B7C29623 /* Upload.swift */; };
+		5CB05FBCB32D21E194B5ECF680CB6AE0 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F4F36118C6B93833729101B07CF1C3 /* Download.swift */; };
+		6079F4FAB5663A1BF0D9D885C326E4FD /* TSMessages-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A79103958A1090BC19E2985E72418A /* TSMessages-dummy.m */; };
+		61D349577B1375FE83F77B0A2193C7AD /* NotificationBackgroundWarning@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B46318E2A750D9E2F7ADA3CFED7890 /* NotificationBackgroundWarning@2x.png */; };
+		62E8346F03C03E7F4D631361F325689E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834BF585F75EE90B136F52BB4622B286 /* Response.swift */; };
+		6A37993C35F7971789EE2F0CFD28DE12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D54EB1F85B9C97050577B040334BAC /* Foundation.framework */; };
+		6CA7B981C79BB3F3C2838589ACD3C8DE /* TSMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 325873CD7EF3775F7DBF8BC446272456 /* TSMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DF239B94F136ED62B73876AD72B73EB /* NotificationBackgroundSuccessIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC963BD947DA08592183F5AF30BB8CC9 /* NotificationBackgroundSuccessIcon@2x.png */; };
+		789F502C3010C37B35C6BB7D2E9AAFFB /* Pods-thermometer-swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA2291BC91D581B7540CE04F657F1A9 /* Pods-thermometer-swift-dummy.m */; };
+		79CEB71703E1C1EA163B1D6E6D6FA27E /* FBShimmeringLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 28B7D942773D1434B7ADD15B1AF72E80 /* FBShimmeringLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B48852C4D848FA2DA416A98F6425869 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC30D04C9BF6A91A9A95AC2E524F5A /* ServerTrustPolicy.swift */; };
+		7BA049A8A530320D26A5FED8582518B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D54EB1F85B9C97050577B040334BAC /* Foundation.framework */; };
+		7C4D36BAF6DEEDBAC9DEACC3EA7FFE47 /* TSBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12792E2AA9E10711AC61A8C22BB68659 /* TSBlurView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8C91BF53C3EF19AD26723EA56AD4B184 /* HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 15643E1248BC11A9AB6003F122780457 /* HexColor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8EB11202167FCDDF1257AAAB1D1FB244 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E630F94425F7B37C0772937C6CB0E8 /* Alamofire.swift */; };
+		9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 422BD3CC8F743A06C558FEEAE1FC6E7F /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B642AD6F9B054B635F54FF431047E6F /* TSMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7432D315F32496616F02606B424A5F1 /* TSMessageView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9B6D973EF92D484D52792F80565267D2 /* TSMessagesDefaultDesign.json in Resources */ = {isa = PBXBuildFile; fileRef = F56C4C0C8213FB9FE98216465C8F5BF5 /* TSMessagesDefaultDesign.json */; };
+		9D09F5FFB933F83C736F3C5F99F43C4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D54EB1F85B9C97050577B040334BAC /* Foundation.framework */; };
+		9F298F1C62EBD6E3500AB46068E45285 /* HexColors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED95C9854C5A1E9D1863834AA6302259 /* HexColors.framework */; };
+		A08FCFBBA6103057E2563E402CE00D06 /* NotificationBackgroundSuccessIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF5B1803126BDA1362D440FA3103389 /* NotificationBackgroundSuccessIcon.png */; };
+		A2E8190837D431A4627DC91D726A213D /* NotificationButtonBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61808F8990B96EAEFACFDD6FEE9B57C /* NotificationButtonBackground@2x.png */; };
+		AA314156AC500125F4078EE968DB14C6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064059968E128E6B17BDBA98E4607AC6 /* Result.swift */; };
+		ADF19C953CE2A7D0B72EC93A81FCCC26 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D03AF4BF86F12B8C0EAEB0126229566 /* Alamofire-dummy.m */; };
+		AE4CF87C02C042DF13ED5B21C4FDC1E0 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57499827700054C498C4B2455D6A617 /* Stream.swift */; };
+		B0D7A870AF337A5696E9CAD1612161C9 /* NotificationBackgroundMessage.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B43CEA6E5FC1053E6DCAC44F8BFA2BD /* NotificationBackgroundMessage.png */; };
+		BE41196F6A3903E59C3306FE3F8B43FE /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D04E5E83B8EB130BEE5B57915325360 /* Notifications.swift */; };
+		C0DB70AB368765DC64BFB5FEA75E0696 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B799D8DBA33914AA03EC5C8A029EBD8 /* ParameterEncoding.swift */; };
+		C25894E72B4EB3F507D7FD872A3E6839 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D54EB1F85B9C97050577B040334BAC /* Foundation.framework */; };
+		C2EAA20EA2F13F1E98A7AC92B65B63AF /* FBShimmering.h in Headers */ = {isa = PBXBuildFile; fileRef = B4AB3841AAA1F517025ED6A01B699A73 /* FBShimmering.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C78D14301FE2B826AF1766B036A78118 /* NotificationBackgroundError@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77340F2301D3DA5FEFFFBCB2A30C43FB /* NotificationBackgroundError@2x.png */; };
+		C7B6DD7C0456C50289A2C381DFE9FA3F /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2B4515F601CAAD8446797939D4DA8A /* MultipartFormData.swift */; };
+		CAA4FDF8413EA4B4B39B2A6F45626CDB /* NotificationBackgroundWarningIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BED4F52E4FCC6EAA4D19ABA6E66CA91A /* NotificationBackgroundWarningIcon@2x.png */; };
+		CE984CB467CBD3D2E2F6F06CBB4E408C /* HexColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDFC942D5EEDF26907D1A8F43F88A37 /* HexColors-dummy.m */; };
+		D00018C55D7DBA3F9E73766522F3005D /* Shimmer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B493A87B8F9E7015550E691EDC2C0B58 /* Shimmer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2A16A0196B3846AF4153233125FB224 /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 562D56942901812DB8AD286F9974FB63 /* FBShimmeringLayer.m */; };
+		D8C30109AAF9A8F8E823222C3228723C /* NotificationButtonBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = B5D0FFC19C722040D1F53E6E2FD56F08 /* NotificationButtonBackground.png */; };
+		E04168F4C88504E49EA32F2E6BBE9B76 /* NotificationBackgroundWarningIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A4395C9BBA441BB1536F201019A8E5E7 /* NotificationBackgroundWarningIcon.png */; };
+		E3ECA3B6F07733806E962547B0294BCA /* NotificationBackgroundErrorIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ECAE668A6D1B19878EFA3EE8C553A41 /* NotificationBackgroundErrorIcon@2x.png */; };
+		E767075305A225D2EDCC68E716A796C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D54EB1F85B9C97050577B040334BAC /* Foundation.framework */; };
+		EA11589975D42E12DB31E033451C2DCF /* NotificationBackgroundError.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B6CC74E8904525A09F048FEBA1EFA3 /* NotificationBackgroundError.png */; };
+		EB90D428F95A3B867306D8162E28215E /* FBShimmeringView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6438451AF097D4C7B43E1D8765FD3D33 /* FBShimmeringView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFE92E8D3813DD26E78E93EEAF6D7E7E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693FA165C8CC9DDCE06932A5507BC026 /* Request.swift */; };
+		F4992AC83C2523FFADB42774641B0CEA /* NotificationBackgroundWarning.png in Resources */ = {isa = PBXBuildFile; fileRef = BED6DAFE2B14E35CC8E7D3056F6431B5 /* NotificationBackgroundWarning.png */; };
+		FAF96B98D61CFCB443355821E4CF9932 /* TSMessages-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ADA4C488A6A2E797FDB49CD0A211E8C /* TSMessages-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBDCA85F7CFBC3DFA5134DB59A680242 /* HexColors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05A685EA6B28DED4413E9F04EBEF903E /* HexColors-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EDDC7FF28EA7852951F9E8E3AED5012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E604CCEBB2EDE9BF936DF145488037B;
+			remoteInfo = Shimmer;
+		};
+		8B8C8A39707302652B8BF9D9D66F4827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F21CA26646FD78A87833191C3033644;
+			remoteInfo = TSMessages;
+		};
+		B3F41B648E31E02857DC2D275DE278B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79C040AFDDCE1BCBF6D8B5EB0B85887F;
+			remoteInfo = Alamofire;
+		};
+		D22788E115532AA2D0415ED871D3C271 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C408D4E183A88B763793C217A66A1950;
+			remoteInfo = HexColors;
+		};
+		EEDC637BADAA00E7D1790717F69B20B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C408D4E183A88B763793C217A66A1950;
+			remoteInfo = HexColors;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02F9FD86EF2C613735674C15EE373C75 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05A685EA6B28DED4413E9F04EBEF903E /* HexColors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HexColors-umbrella.h"; sourceTree = "<group>"; };
+		064059968E128E6B17BDBA98E4607AC6 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		0B799D8DBA33914AA03EC5C8A029EBD8 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		0C4F28E61DD3300DC8E1684B9361AD6A /* TSMessages.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSMessages.xcconfig; sourceTree = "<group>"; };
+		0DA137B327AFCAA80A7081E8DA7CCE0D /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
+		0EEF55D258C054757844ACE85617049A /* HexColors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HexColors.modulemap; sourceTree = "<group>"; };
+		0F63107353B421C3D44297A550436445 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12792E2AA9E10711AC61A8C22BB68659 /* TSBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSBlurView.m; path = Pod/Classes/TSBlurView.m; sourceTree = "<group>"; };
+		15643E1248BC11A9AB6003F122780457 /* HexColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HexColor.m; path = Classes/HexColor.m; sourceTree = "<group>"; };
+		17FDF5D6A9C486A2FF241F9BA4D299DC /* Pods-thermometer-swift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-thermometer-swift-acknowledgements.plist"; sourceTree = "<group>"; };
+		1ACA94D8A2545D34CE6CD91B5F7ABA8A /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		1FCBCA619ACFF7094100FD1BF0BD5884 /* Shimmer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shimmer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26FC1C1486B455DDECD4A1204BA89C41 /* Pods-thermometer-swift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-thermometer-swift-resources.sh"; sourceTree = "<group>"; };
+		283007C3A419FB57870DBC4E27F4E3B9 /* Pods-thermometer-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-thermometer-swift.release.xcconfig"; sourceTree = "<group>"; };
+		28B7D942773D1434B7ADD15B1AF72E80 /* FBShimmeringLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBShimmeringLayer.h; path = FBShimmering/FBShimmeringLayer.h; sourceTree = "<group>"; };
+		2A49266A80D897897398CCCEB7B4CBD0 /* NotificationBackgroundSuccess.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationBackgroundSuccess.png; path = Pod/Assets/NotificationBackgroundSuccess.png; sourceTree = "<group>"; };
+		2A916C7EF31FB95F36C573CF372617AF /* HexColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HexColors.xcconfig; sourceTree = "<group>"; };
+		2E60543D5C2E017CFEAD3669511DA94C /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		325873CD7EF3775F7DBF8BC446272456 /* TSMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSMessage.h; path = Pod/Classes/TSMessage.h; sourceTree = "<group>"; };
+		33D353B04817B568BAF4900A2BFFAC21 /* Shimmer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Shimmer-prefix.pch"; sourceTree = "<group>"; };
+		38AF8C7FD4216E04F399AFE066E3E677 /* HexColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HexColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ADA4C488A6A2E797FDB49CD0A211E8C /* TSMessages-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSMessages-umbrella.h"; sourceTree = "<group>"; };
+		3D5DF7A54C668123367A72CDAACAC33A /* TSMessageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSMessageView.h; path = Pod/Classes/TSMessageView.h; sourceTree = "<group>"; };
+		422BD3CC8F743A06C558FEEAE1FC6E7F /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		42D2344A28ED6FE05B7DBA4F306119AA /* Pods-thermometer-swift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-thermometer-swift-frameworks.sh"; sourceTree = "<group>"; };
+		43B1BFEAC494E484466D437A9DBF530E /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46A79103958A1090BC19E2985E72418A /* TSMessages-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TSMessages-dummy.m"; sourceTree = "<group>"; };
+		484CB9912B8201D1291F2B7D5404FFF0 /* Pods-thermometer-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-thermometer-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		4D04E5E83B8EB130BEE5B57915325360 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		4DEC30D04C9BF6A91A9A95AC2E524F5A /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		562D56942901812DB8AD286F9974FB63 /* FBShimmeringLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBShimmeringLayer.m; path = FBShimmering/FBShimmeringLayer.m; sourceTree = "<group>"; };
+		5D03AF4BF86F12B8C0EAEB0126229566 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		62444D922FAB7FEDE49D41E231B939EE /* Pods-thermometer-swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-thermometer-swift-umbrella.h"; sourceTree = "<group>"; };
+		639ABB822BBA9AB8D701FC4717BC208C /* Shimmer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Shimmer.xcconfig; sourceTree = "<group>"; };
+		6438451AF097D4C7B43E1D8765FD3D33 /* FBShimmeringView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBShimmeringView.h; path = FBShimmering/FBShimmeringView.h; sourceTree = "<group>"; };
+		65ACA49698B615FA374A32B885DF60B0 /* FBShimmeringView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBShimmeringView.m; path = FBShimmering/FBShimmeringView.m; sourceTree = "<group>"; };
+		65B46318E2A750D9E2F7ADA3CFED7890 /* NotificationBackgroundWarning@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationBackgroundWarning@2x.png"; path = "Pod/Assets/NotificationBackgroundWarning@2x.png"; sourceTree = "<group>"; };
+		672D69058E592682DDA5956441D210F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		693FA165C8CC9DDCE06932A5507BC026 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		69B6CC74E8904525A09F048FEBA1EFA3 /* NotificationBackgroundError.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationBackgroundError.png; path = Pod/Assets/NotificationBackgroundError.png; sourceTree = "<group>"; };
+		6AE6F5470E91111F3DB13A071ACEFE96 /* TSMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSMessage.m; path = Pod/Classes/TSMessage.m; sourceTree = "<group>"; };
+		6B5F1EF7164B9555EF89732910AA51E4 /* Pods-thermometer-swift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-thermometer-swift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		77340F2301D3DA5FEFFFBCB2A30C43FB /* NotificationBackgroundError@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationBackgroundError@2x.png"; path = "Pod/Assets/NotificationBackgroundError@2x.png"; sourceTree = "<group>"; };
+		786A042DC3725BDC4202E2B68AFAEA55 /* Pods_thermometer_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_thermometer_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E8F9300C895CDC0F967B51A675E748D /* Shimmer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Shimmer.modulemap; sourceTree = "<group>"; };
+		80855C40F54A4E476D5EE24C4D06C8F8 /* NotificationBackgroundErrorIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationBackgroundErrorIcon.png; path = Pod/Assets/NotificationBackgroundErrorIcon.png; sourceTree = "<group>"; };
+		834BF585F75EE90B136F52BB4622B286 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		8BA2291BC91D581B7540CE04F657F1A9 /* Pods-thermometer-swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-thermometer-swift-dummy.m"; sourceTree = "<group>"; };
+		8ECAE668A6D1B19878EFA3EE8C553A41 /* NotificationBackgroundErrorIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationBackgroundErrorIcon@2x.png"; path = "Pod/Assets/NotificationBackgroundErrorIcon@2x.png"; sourceTree = "<group>"; };
+		90941B008B8681AC9E6BE0D2C98C49F2 /* HexColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HexColors-prefix.pch"; sourceTree = "<group>"; };
+		937E3EE8B60174327C72632637DFB43E /* Shimmer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Shimmer-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		940CD9F29F92EDC572D49171880592CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		957DE9E3F98F203572921DA8BDFCD444 /* TSBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSBlurView.h; path = Pod/Classes/TSBlurView.h; sourceTree = "<group>"; };
+		9610EB883F2BB7EAAE837837F7D19BB6 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		99873A10801AC3E5F6CE716C51674F47 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		99A0E722D75A080E3B13CDF5B4129371 /* TSMessages-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSMessages-prefix.pch"; sourceTree = "<group>"; };
+		9B43CEA6E5FC1053E6DCAC44F8BFA2BD /* NotificationBackgroundMessage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationBackgroundMessage.png; path = Pod/Assets/NotificationBackgroundMessage.png; sourceTree = "<group>"; };
+		9D72198BB1B7F00917A399A80B6BD488 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		9EEC88C0DDEC7EEAD5771E8CCD6DA557 /* TSMessages.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TSMessages.modulemap; sourceTree = "<group>"; };
+		9F1756150F13BECC8752E5EA655794A2 /* HexColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HexColor.h; path = Classes/HexColor.h; sourceTree = "<group>"; };
+		9FC9FA608A9277AA4CA309D9FFBD15F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4395C9BBA441BB1536F201019A8E5E7 /* NotificationBackgroundWarningIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationBackgroundWarningIcon.png; path = Pod/Assets/NotificationBackgroundWarningIcon.png; sourceTree = "<group>"; };
+		B493A87B8F9E7015550E691EDC2C0B58 /* Shimmer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Shimmer-umbrella.h"; sourceTree = "<group>"; };
+		B4AB3841AAA1F517025ED6A01B699A73 /* FBShimmering.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBShimmering.h; path = FBShimmering/FBShimmering.h; sourceTree = "<group>"; };
+		B5D0FFC19C722040D1F53E6E2FD56F08 /* NotificationButtonBackground.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationButtonBackground.png; path = Pod/Assets/NotificationButtonBackground.png; sourceTree = "<group>"; };
+		B61808F8990B96EAEFACFDD6FEE9B57C /* NotificationButtonBackground@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationButtonBackground@2x.png"; path = "Pod/Assets/NotificationButtonBackground@2x.png"; sourceTree = "<group>"; };
+		BC2B4515F601CAAD8446797939D4DA8A /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		BED4F52E4FCC6EAA4D19ABA6E66CA91A /* NotificationBackgroundWarningIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationBackgroundWarningIcon@2x.png"; path = "Pod/Assets/NotificationBackgroundWarningIcon@2x.png"; sourceTree = "<group>"; };
+		BED6DAFE2B14E35CC8E7D3056F6431B5 /* NotificationBackgroundWarning.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationBackgroundWarning.png; path = Pod/Assets/NotificationBackgroundWarning.png; sourceTree = "<group>"; };
+		C60A9CF6C761DF87CDBB73A194482FEF /* TSMessages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TSMessages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7432D315F32496616F02606B424A5F1 /* TSMessageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSMessageView.m; path = Pod/Classes/TSMessageView.m; sourceTree = "<group>"; };
+		C8D54EB1F85B9C97050577B040334BAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CB9522ABC3483591C87727E8D9F229CC /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		CC6DC59C6DA1062F9C6987A007C3872F /* NotificationBackgroundSuccess@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationBackgroundSuccess@2x.png"; path = "Pod/Assets/NotificationBackgroundSuccess@2x.png"; sourceTree = "<group>"; };
+		CEDFC942D5EEDF26907D1A8F43F88A37 /* HexColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HexColors-dummy.m"; sourceTree = "<group>"; };
+		D7341ECAD6E4F3B3A0420881B7C29623 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		D86163F1E33EC6BD31C38A6882A7AAFB /* Pods-thermometer-swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-thermometer-swift.modulemap"; sourceTree = "<group>"; };
+		DC963BD947DA08592183F5AF30BB8CC9 /* NotificationBackgroundSuccessIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationBackgroundSuccessIcon@2x.png"; path = "Pod/Assets/NotificationBackgroundSuccessIcon@2x.png"; sourceTree = "<group>"; };
+		E0E630F94425F7B37C0772937C6CB0E8 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		E868A280D6717158ED9E5CC9CA51E37A /* NotificationBackgroundMessage@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationBackgroundMessage@2x.png"; path = "Pod/Assets/NotificationBackgroundMessage@2x.png"; sourceTree = "<group>"; };
+		ED95C9854C5A1E9D1863834AA6302259 /* HexColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HexColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF5B1803126BDA1362D440FA3103389 /* NotificationBackgroundSuccessIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationBackgroundSuccessIcon.png; path = Pod/Assets/NotificationBackgroundSuccessIcon.png; sourceTree = "<group>"; };
+		F56C4C0C8213FB9FE98216465C8F5BF5 /* TSMessagesDefaultDesign.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = TSMessagesDefaultDesign.json; path = Pod/Assets/TSMessagesDefaultDesign.json; sourceTree = "<group>"; };
+		F57499827700054C498C4B2455D6A617 /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
+		F6F4F36118C6B93833729101B07CF1C3 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
+		F8366106B2C3EB2728283C625B9CE422 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		FECC2EBB108D01ED01BE7474A4BB428D /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36B4A0ABDA603056F56764FDF457E2A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A37993C35F7971789EE2F0CFD28DE12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BA155DC3466C96A26E2FED0479F99BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E767075305A225D2EDCC68E716A796C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F808B2E71007D0E75BF8FBB09AE0589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D09F5FFB933F83C736F3C5F99F43C4C /* Foundation.framework in Frameworks */,
+				9F298F1C62EBD6E3500AB46068E45285 /* HexColors.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1729F851F648EC60EE93CDB3C8BAEAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA049A8A530320D26A5FED8582518B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA963325ACB394EBD3BD41733FD91C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25894E72B4EB3F507D7FD872A3E6839 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04DC935C3F51D0E46520DD78439CCA1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED95C9854C5A1E9D1863834AA6302259 /* HexColors.framework */,
+				846A19F9F5B362981FFA326D22E0EA22 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0C42E4D3267CCC7DCC1AC281E864FF65 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D72198BB1B7F00917A399A80B6BD488 /* Alamofire.modulemap */,
+				CB9522ABC3483591C87727E8D9F229CC /* Alamofire.xcconfig */,
+				5D03AF4BF86F12B8C0EAEB0126229566 /* Alamofire-dummy.m */,
+				2E60543D5C2E017CFEAD3669511DA94C /* Alamofire-prefix.pch */,
+				422BD3CC8F743A06C558FEEAE1FC6E7F /* Alamofire-umbrella.h */,
+				0F63107353B421C3D44297A550436445 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		238DEA8476800AB1D5191A1B688204FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D4BC491B320864FF02C89CBD40B2A17 /* Alamofire */,
+				CF6D4FE2CC0A0DCADD2BFBCEF8CB8F34 /* HexColors */,
+				8FDADCEA2DB17318E58677712085038A /* Shimmer */,
+				934CE85CE29E1FAE6FBC8837217E2BE6 /* TSMessages */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3D4BC491B320864FF02C89CBD40B2A17 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				E0E630F94425F7B37C0772937C6CB0E8 /* Alamofire.swift */,
+				F6F4F36118C6B93833729101B07CF1C3 /* Download.swift */,
+				0DA137B327AFCAA80A7081E8DA7CCE0D /* Error.swift */,
+				F8366106B2C3EB2728283C625B9CE422 /* Manager.swift */,
+				BC2B4515F601CAAD8446797939D4DA8A /* MultipartFormData.swift */,
+				9610EB883F2BB7EAAE837837F7D19BB6 /* NetworkReachabilityManager.swift */,
+				4D04E5E83B8EB130BEE5B57915325360 /* Notifications.swift */,
+				0B799D8DBA33914AA03EC5C8A029EBD8 /* ParameterEncoding.swift */,
+				693FA165C8CC9DDCE06932A5507BC026 /* Request.swift */,
+				834BF585F75EE90B136F52BB4622B286 /* Response.swift */,
+				99873A10801AC3E5F6CE716C51674F47 /* ResponseSerialization.swift */,
+				064059968E128E6B17BDBA98E4607AC6 /* Result.swift */,
+				4DEC30D04C9BF6A91A9A95AC2E524F5A /* ServerTrustPolicy.swift */,
+				F57499827700054C498C4B2455D6A617 /* Stream.swift */,
+				FECC2EBB108D01ED01BE7474A4BB428D /* Timeline.swift */,
+				D7341ECAD6E4F3B3A0420881B7C29623 /* Upload.swift */,
+				1ACA94D8A2545D34CE6CD91B5F7ABA8A /* Validation.swift */,
+				0C42E4D3267CCC7DCC1AC281E864FF65 /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		49C7115A4B1BD330D1934DE0E0277BEF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EEF55D258C054757844ACE85617049A /* HexColors.modulemap */,
+				2A916C7EF31FB95F36C573CF372617AF /* HexColors.xcconfig */,
+				CEDFC942D5EEDF26907D1A8F43F88A37 /* HexColors-dummy.m */,
+				90941B008B8681AC9E6BE0D2C98C49F2 /* HexColors-prefix.pch */,
+				05A685EA6B28DED4413E9F04EBEF903E /* HexColors-umbrella.h */,
+				02F9FD86EF2C613735674C15EE373C75 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HexColors";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				04DC935C3F51D0E46520DD78439CCA1B /* Frameworks */,
+				238DEA8476800AB1D5191A1B688204FB /* Pods */,
+				A5C4B291201AC5203E5EA09338992EDE /* Products */,
+				84EE970845B5A40AFE99C2D6972718D1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		800565A7406DAA640054CDE17B361245 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				940CD9F29F92EDC572D49171880592CA /* Info.plist */,
+				7E8F9300C895CDC0F967B51A675E748D /* Shimmer.modulemap */,
+				639ABB822BBA9AB8D701FC4717BC208C /* Shimmer.xcconfig */,
+				937E3EE8B60174327C72632637DFB43E /* Shimmer-dummy.m */,
+				33D353B04817B568BAF4900A2BFFAC21 /* Shimmer-prefix.pch */,
+				B493A87B8F9E7015550E691EDC2C0B58 /* Shimmer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Shimmer";
+			sourceTree = "<group>";
+		};
+		846A19F9F5B362981FFA326D22E0EA22 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C8D54EB1F85B9C97050577B040334BAC /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		84EE970845B5A40AFE99C2D6972718D1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9E65739A295F8BF1DEB5DD8FB16655B /* Pods-thermometer-swift */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8FDADCEA2DB17318E58677712085038A /* Shimmer */ = {
+			isa = PBXGroup;
+			children = (
+				B4AB3841AAA1F517025ED6A01B699A73 /* FBShimmering.h */,
+				28B7D942773D1434B7ADD15B1AF72E80 /* FBShimmeringLayer.h */,
+				562D56942901812DB8AD286F9974FB63 /* FBShimmeringLayer.m */,
+				6438451AF097D4C7B43E1D8765FD3D33 /* FBShimmeringView.h */,
+				65ACA49698B615FA374A32B885DF60B0 /* FBShimmeringView.m */,
+				800565A7406DAA640054CDE17B361245 /* Support Files */,
+			);
+			path = Shimmer;
+			sourceTree = "<group>";
+		};
+		934CE85CE29E1FAE6FBC8837217E2BE6 /* TSMessages */ = {
+			isa = PBXGroup;
+			children = (
+				957DE9E3F98F203572921DA8BDFCD444 /* TSBlurView.h */,
+				12792E2AA9E10711AC61A8C22BB68659 /* TSBlurView.m */,
+				325873CD7EF3775F7DBF8BC446272456 /* TSMessage.h */,
+				6AE6F5470E91111F3DB13A071ACEFE96 /* TSMessage.m */,
+				3D5DF7A54C668123367A72CDAACAC33A /* TSMessageView.h */,
+				C7432D315F32496616F02606B424A5F1 /* TSMessageView.m */,
+				C4B4BDA13549D78AF1E1A014473274E3 /* Resources */,
+				CE9D63BAE158326E236AADCD92CE04C8 /* Support Files */,
+			);
+			path = TSMessages;
+			sourceTree = "<group>";
+		};
+		A5C4B291201AC5203E5EA09338992EDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43B1BFEAC494E484466D437A9DBF530E /* Alamofire.framework */,
+				38AF8C7FD4216E04F399AFE066E3E677 /* HexColors.framework */,
+				786A042DC3725BDC4202E2B68AFAEA55 /* Pods_thermometer_swift.framework */,
+				1FCBCA619ACFF7094100FD1BF0BD5884 /* Shimmer.framework */,
+				C60A9CF6C761DF87CDBB73A194482FEF /* TSMessages.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9E65739A295F8BF1DEB5DD8FB16655B /* Pods-thermometer-swift */ = {
+			isa = PBXGroup;
+			children = (
+				672D69058E592682DDA5956441D210F8 /* Info.plist */,
+				D86163F1E33EC6BD31C38A6882A7AAFB /* Pods-thermometer-swift.modulemap */,
+				6B5F1EF7164B9555EF89732910AA51E4 /* Pods-thermometer-swift-acknowledgements.markdown */,
+				17FDF5D6A9C486A2FF241F9BA4D299DC /* Pods-thermometer-swift-acknowledgements.plist */,
+				8BA2291BC91D581B7540CE04F657F1A9 /* Pods-thermometer-swift-dummy.m */,
+				42D2344A28ED6FE05B7DBA4F306119AA /* Pods-thermometer-swift-frameworks.sh */,
+				26FC1C1486B455DDECD4A1204BA89C41 /* Pods-thermometer-swift-resources.sh */,
+				62444D922FAB7FEDE49D41E231B939EE /* Pods-thermometer-swift-umbrella.h */,
+				484CB9912B8201D1291F2B7D5404FFF0 /* Pods-thermometer-swift.debug.xcconfig */,
+				283007C3A419FB57870DBC4E27F4E3B9 /* Pods-thermometer-swift.release.xcconfig */,
+			);
+			name = "Pods-thermometer-swift";
+			path = "Target Support Files/Pods-thermometer-swift";
+			sourceTree = "<group>";
+		};
+		C4B4BDA13549D78AF1E1A014473274E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				69B6CC74E8904525A09F048FEBA1EFA3 /* NotificationBackgroundError.png */,
+				77340F2301D3DA5FEFFFBCB2A30C43FB /* NotificationBackgroundError@2x.png */,
+				80855C40F54A4E476D5EE24C4D06C8F8 /* NotificationBackgroundErrorIcon.png */,
+				8ECAE668A6D1B19878EFA3EE8C553A41 /* NotificationBackgroundErrorIcon@2x.png */,
+				9B43CEA6E5FC1053E6DCAC44F8BFA2BD /* NotificationBackgroundMessage.png */,
+				E868A280D6717158ED9E5CC9CA51E37A /* NotificationBackgroundMessage@2x.png */,
+				2A49266A80D897897398CCCEB7B4CBD0 /* NotificationBackgroundSuccess.png */,
+				CC6DC59C6DA1062F9C6987A007C3872F /* NotificationBackgroundSuccess@2x.png */,
+				EDF5B1803126BDA1362D440FA3103389 /* NotificationBackgroundSuccessIcon.png */,
+				DC963BD947DA08592183F5AF30BB8CC9 /* NotificationBackgroundSuccessIcon@2x.png */,
+				BED6DAFE2B14E35CC8E7D3056F6431B5 /* NotificationBackgroundWarning.png */,
+				65B46318E2A750D9E2F7ADA3CFED7890 /* NotificationBackgroundWarning@2x.png */,
+				A4395C9BBA441BB1536F201019A8E5E7 /* NotificationBackgroundWarningIcon.png */,
+				BED4F52E4FCC6EAA4D19ABA6E66CA91A /* NotificationBackgroundWarningIcon@2x.png */,
+				B5D0FFC19C722040D1F53E6E2FD56F08 /* NotificationButtonBackground.png */,
+				B61808F8990B96EAEFACFDD6FEE9B57C /* NotificationButtonBackground@2x.png */,
+				F56C4C0C8213FB9FE98216465C8F5BF5 /* TSMessagesDefaultDesign.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CE9D63BAE158326E236AADCD92CE04C8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FC9FA608A9277AA4CA309D9FFBD15F8 /* Info.plist */,
+				9EEC88C0DDEC7EEAD5771E8CCD6DA557 /* TSMessages.modulemap */,
+				0C4F28E61DD3300DC8E1684B9361AD6A /* TSMessages.xcconfig */,
+				46A79103958A1090BC19E2985E72418A /* TSMessages-dummy.m */,
+				99A0E722D75A080E3B13CDF5B4129371 /* TSMessages-prefix.pch */,
+				3ADA4C488A6A2E797FDB49CD0A211E8C /* TSMessages-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TSMessages";
+			sourceTree = "<group>";
+		};
+		CF6D4FE2CC0A0DCADD2BFBCEF8CB8F34 /* HexColors */ = {
+			isa = PBXGroup;
+			children = (
+				9F1756150F13BECC8752E5EA655794A2 /* HexColor.h */,
+				15643E1248BC11A9AB6003F122780457 /* HexColor.m */,
+				49C7115A4B1BD330D1934DE0E0277BEF /* Support Files */,
+			);
+			path = HexColors;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		25BBFC5180BA4CD0F4067A4E1058A01F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F09B9486ECFAFED088754AF63EBDA9E /* HexColor.h in Headers */,
+				FBDCA85F7CFBC3DFA5134DB59A680242 /* HexColors-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DA96C6F224EC36F5D25D32147E34B6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2EAA20EA2F13F1E98A7AC92B65B63AF /* FBShimmering.h in Headers */,
+				79CEB71703E1C1EA163B1D6E6D6FA27E /* FBShimmeringLayer.h in Headers */,
+				EB90D428F95A3B867306D8162E28215E /* FBShimmeringView.h in Headers */,
+				D00018C55D7DBA3F9E73766522F3005D /* Shimmer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B201CF6B9A44ACCCC1095AA897880C0F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5020A63E3B486942DE3B6B8370DFB2F7 /* TSBlurView.h in Headers */,
+				6CA7B981C79BB3F3C2838589ACD3C8DE /* TSMessage.h in Headers */,
+				FAF96B98D61CFCB443355821E4CF9932 /* TSMessages-umbrella.h in Headers */,
+				46654EF9D3EC80A2DC4F2EA829EDD773 /* TSMessageView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDF3B631BBB965A372347705CA14854 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49EE9CD905F7B1C79988F7697827D54 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1491F28E10D35EF816E7CFA8C17AFDA7 /* Pods-thermometer-swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F1DBE4C8BE4DDF2FB076E5EFEE51585 /* Pods-thermometer-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64775856F9E8306EBD2720DC1EAA0E68 /* Build configuration list for PBXNativeTarget "Pods-thermometer-swift" */;
+			buildPhases = (
+				2D166B25517378C587A6BF80072D54AB /* Sources */,
+				36B4A0ABDA603056F56764FDF457E2A3 /* Frameworks */,
+				F49EE9CD905F7B1C79988F7697827D54 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F79EC0677BCF8E4741AA32E5C33117C /* PBXTargetDependency */,
+				DC07F21A725D8433A5634C4CA454A3E0 /* PBXTargetDependency */,
+				82815E6A683FD5DA150F8BEDDCC1E7E9 /* PBXTargetDependency */,
+				5DC9904435BFACEEA20C5A368AF5E735 /* PBXTargetDependency */,
+			);
+			name = "Pods-thermometer-swift";
+			productName = "Pods-thermometer-swift";
+			productReference = 786A042DC3725BDC4202E2B68AFAEA55 /* Pods_thermometer_swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CFB42910790CF0BDBCCEBAACD6B9367 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				95CC2C7E06DC188A05DAAEE9CAA555A3 /* Sources */,
+				B1729F851F648EC60EE93CDB3C8BAEAD /* Frameworks */,
+				EFDF3B631BBB965A372347705CA14854 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 43B1BFEAC494E484466D437A9DBF530E /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7E604CCEBB2EDE9BF936DF145488037B /* Shimmer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E55CB147DF040ADCA4F9B0BABA3C8804 /* Build configuration list for PBXNativeTarget "Shimmer" */;
+			buildPhases = (
+				FF352F739EE7FCE7E3ABDE46FD32DBBF /* Sources */,
+				DFA963325ACB394EBD3BD41733FD91C9 /* Frameworks */,
+				9DA96C6F224EC36F5D25D32147E34B6B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shimmer;
+			productName = Shimmer;
+			productReference = 1FCBCA619ACFF7094100FD1BF0BD5884 /* Shimmer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F21CA26646FD78A87833191C3033644 /* TSMessages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 008EC25BEA23295AFC5DD8CB21E41B17 /* Build configuration list for PBXNativeTarget "TSMessages" */;
+			buildPhases = (
+				79E7CC92667B75457067F3C2583C1DD4 /* Sources */,
+				6F808B2E71007D0E75BF8FBB09AE0589 /* Frameworks */,
+				B201CF6B9A44ACCCC1095AA897880C0F /* Headers */,
+				097BE75461B38363EF88FBB707DB299F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B44FE30C1F31B5F48C378EC674026D2D /* PBXTargetDependency */,
+			);
+			name = TSMessages;
+			productName = TSMessages;
+			productReference = C60A9CF6C761DF87CDBB73A194482FEF /* TSMessages.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C408D4E183A88B763793C217A66A1950 /* HexColors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 120D0B17EB9DEF64F2E1BC979F24A556 /* Build configuration list for PBXNativeTarget "HexColors" */;
+			buildPhases = (
+				525846ACE59F44A9D0EB6B9BA8391444 /* Sources */,
+				4BA155DC3466C96A26E2FED0479F99BA /* Frameworks */,
+				25BBFC5180BA4CD0F4067A4E1058A01F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HexColors;
+			productName = HexColors;
+			productReference = 38AF8C7FD4216E04F399AFE066E3E677 /* HexColors.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A5C4B291201AC5203E5EA09338992EDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */,
+				C408D4E183A88B763793C217A66A1950 /* HexColors */,
+				1F1DBE4C8BE4DDF2FB076E5EFEE51585 /* Pods-thermometer-swift */,
+				7E604CCEBB2EDE9BF936DF145488037B /* Shimmer */,
+				9F21CA26646FD78A87833191C3033644 /* TSMessages */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		097BE75461B38363EF88FBB707DB299F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA11589975D42E12DB31E033451C2DCF /* NotificationBackgroundError.png in Resources */,
+				C78D14301FE2B826AF1766B036A78118 /* NotificationBackgroundError@2x.png in Resources */,
+				4E9BEEB5CE1CE2FA43D0A7CA77A306E7 /* NotificationBackgroundErrorIcon.png in Resources */,
+				E3ECA3B6F07733806E962547B0294BCA /* NotificationBackgroundErrorIcon@2x.png in Resources */,
+				B0D7A870AF337A5696E9CAD1612161C9 /* NotificationBackgroundMessage.png in Resources */,
+				4E5022D7A62E87C178761A0185D03278 /* NotificationBackgroundMessage@2x.png in Resources */,
+				1A968D66C16C3F3AF20CCA0ED69433ED /* NotificationBackgroundSuccess.png in Resources */,
+				18C77C96DD97A7DEB8808656D9440C3A /* NotificationBackgroundSuccess@2x.png in Resources */,
+				A08FCFBBA6103057E2563E402CE00D06 /* NotificationBackgroundSuccessIcon.png in Resources */,
+				6DF239B94F136ED62B73876AD72B73EB /* NotificationBackgroundSuccessIcon@2x.png in Resources */,
+				F4992AC83C2523FFADB42774641B0CEA /* NotificationBackgroundWarning.png in Resources */,
+				61D349577B1375FE83F77B0A2193C7AD /* NotificationBackgroundWarning@2x.png in Resources */,
+				E04168F4C88504E49EA32F2E6BBE9B76 /* NotificationBackgroundWarningIcon.png in Resources */,
+				CAA4FDF8413EA4B4B39B2A6F45626CDB /* NotificationBackgroundWarningIcon@2x.png in Resources */,
+				D8C30109AAF9A8F8E823222C3228723C /* NotificationButtonBackground.png in Resources */,
+				A2E8190837D431A4627DC91D726A213D /* NotificationButtonBackground@2x.png in Resources */,
+				9B6D973EF92D484D52792F80565267D2 /* TSMessagesDefaultDesign.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D166B25517378C587A6BF80072D54AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789F502C3010C37B35C6BB7D2E9AAFFB /* Pods-thermometer-swift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525846ACE59F44A9D0EB6B9BA8391444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C91BF53C3EF19AD26723EA56AD4B184 /* HexColor.m in Sources */,
+				CE984CB467CBD3D2E2F6F06CBB4E408C /* HexColors-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E7CC92667B75457067F3C2583C1DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C4D36BAF6DEEDBAC9DEACC3EA7FFE47 /* TSBlurView.m in Sources */,
+				38D904B33176273A405C4796D1760D0A /* TSMessage.m in Sources */,
+				6079F4FAB5663A1BF0D9D885C326E4FD /* TSMessages-dummy.m in Sources */,
+				9B642AD6F9B054B635F54FF431047E6F /* TSMessageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95CC2C7E06DC188A05DAAEE9CAA555A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF19C953CE2A7D0B72EC93A81FCCC26 /* Alamofire-dummy.m in Sources */,
+				8EB11202167FCDDF1257AAAB1D1FB244 /* Alamofire.swift in Sources */,
+				5CB05FBCB32D21E194B5ECF680CB6AE0 /* Download.swift in Sources */,
+				095406039B4D371E48D08B38A2975AC8 /* Error.swift in Sources */,
+				4081EA628AF0B73AC51FFB9D7AB3B89E /* Manager.swift in Sources */,
+				C7B6DD7C0456C50289A2C381DFE9FA3F /* MultipartFormData.swift in Sources */,
+				34CCDCA848A701466256BC2927DA8856 /* NetworkReachabilityManager.swift in Sources */,
+				BE41196F6A3903E59C3306FE3F8B43FE /* Notifications.swift in Sources */,
+				C0DB70AB368765DC64BFB5FEA75E0696 /* ParameterEncoding.swift in Sources */,
+				EFE92E8D3813DD26E78E93EEAF6D7E7E /* Request.swift in Sources */,
+				62E8346F03C03E7F4D631361F325689E /* Response.swift in Sources */,
+				3EA8F215C9C1432D74E5CCA4834AA8C0 /* ResponseSerialization.swift in Sources */,
+				AA314156AC500125F4078EE968DB14C6 /* Result.swift in Sources */,
+				7B48852C4D848FA2DA416A98F6425869 /* ServerTrustPolicy.swift in Sources */,
+				AE4CF87C02C042DF13ED5B21C4FDC1E0 /* Stream.swift in Sources */,
+				16102E4E35FAA0FC4161282FECE56469 /* Timeline.swift in Sources */,
+				5BC19E6E0F199276003F0AF96838BCE5 /* Upload.swift in Sources */,
+				2D3405986FC586FA6C0A5E0B6BA7E64E /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF352F739EE7FCE7E3ABDE46FD32DBBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A16A0196B3846AF4153233125FB224 /* FBShimmeringLayer.m in Sources */,
+				3EBF4447A8B0F149A433C58FE985E9C0 /* FBShimmeringView.m in Sources */,
+				173E7145BA69C3B751B48E424BE97E6C /* Shimmer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F79EC0677BCF8E4741AA32E5C33117C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */;
+			targetProxy = B3F41B648E31E02857DC2D275DE278B0 /* PBXContainerItemProxy */;
+		};
+		5DC9904435BFACEEA20C5A368AF5E735 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TSMessages;
+			target = 9F21CA26646FD78A87833191C3033644 /* TSMessages */;
+			targetProxy = 8B8C8A39707302652B8BF9D9D66F4827 /* PBXContainerItemProxy */;
+		};
+		82815E6A683FD5DA150F8BEDDCC1E7E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Shimmer;
+			target = 7E604CCEBB2EDE9BF936DF145488037B /* Shimmer */;
+			targetProxy = 5EDDC7FF28EA7852951F9E8E3AED5012 /* PBXContainerItemProxy */;
+		};
+		B44FE30C1F31B5F48C378EC674026D2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HexColors;
+			target = C408D4E183A88B763793C217A66A1950 /* HexColors */;
+			targetProxy = D22788E115532AA2D0415ED871D3C271 /* PBXContainerItemProxy */;
+		};
+		DC07F21A725D8433A5634C4CA454A3E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HexColors;
+			target = C408D4E183A88B763793C217A66A1950 /* HexColors */;
+			targetProxy = EEDC637BADAA00E7D1790717F69B20B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0773F206903FDD4DD1C681FF0488E840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C4F28E61DD3300DC8E1684B9361AD6A /* TSMessages.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXPANDED_CODE_SIGN_IDENTITY = "";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TSMessages/TSMessages-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TSMessages/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TSMessages/TSMessages.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TSMessages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0D1AD103D573FECCC1A8D40C138CA975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 639ABB822BBA9AB8D701FC4717BC208C /* Shimmer.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXPANDED_CODE_SIGN_IDENTITY = "";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Shimmer/Shimmer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Shimmer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Shimmer/Shimmer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Shimmer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		363F1E04F4B414294754FF6E11967BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C4F28E61DD3300DC8E1684B9361AD6A /* TSMessages.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXPANDED_CODE_SIGN_IDENTITY = "";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TSMessages/TSMessages-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TSMessages/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TSMessages/TSMessages.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TSMessages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3EDAA353254A12636419F1CDA07F013D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 639ABB822BBA9AB8D701FC4717BC208C /* Shimmer.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXPANDED_CODE_SIGN_IDENTITY = "";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Shimmer/Shimmer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Shimmer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Shimmer/Shimmer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Shimmer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BCFCAA2A1E45A5769F526EBFB3EFA6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB9522ABC3483591C87727E8D9F229CC /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXPANDED_CODE_SIGN_IDENTITY = "";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5084E6AA501FDDD36ADEE170FB348A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 283007C3A419FB57870DBC4E27F4E3B9 /* Pods-thermometer-swift.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXPANDED_CODE_SIGN_IDENTITY = "";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-thermometer-swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-thermometer-swift/Pods-thermometer-swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_thermometer_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		811519CB8F683AC06F9C98B55AC40F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		882EB4391EC2E701934974DA86F7343F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		91A09D069B08A57054F12BAD55B30C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB9522ABC3483591C87727E8D9F229CC /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXPANDED_CODE_SIGN_IDENTITY = "";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AA25E0DFE9DD8E94DF4A3FDB8F1A0C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A916C7EF31FB95F36C573CF372617AF /* HexColors.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXPANDED_CODE_SIGN_IDENTITY = "";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HexColors/HexColors-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HexColors/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HexColors/HexColors.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HexColors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AEB4A593F64D7AAB38E18CC761190F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A916C7EF31FB95F36C573CF372617AF /* HexColors.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXPANDED_CODE_SIGN_IDENTITY = "";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HexColors/HexColors-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HexColors/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HexColors/HexColors.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HexColors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F1A0B8CCB4743FEB2F0B4DB4901E389A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 484CB9912B8201D1291F2B7D5404FFF0 /* Pods-thermometer-swift.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXPANDED_CODE_SIGN_IDENTITY = "";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-thermometer-swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-thermometer-swift/Pods-thermometer-swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_thermometer_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		008EC25BEA23295AFC5DD8CB21E41B17 /* Build configuration list for PBXNativeTarget "TSMessages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				363F1E04F4B414294754FF6E11967BDA /* Debug */,
+				0773F206903FDD4DD1C681FF0488E840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		120D0B17EB9DEF64F2E1BC979F24A556 /* Build configuration list for PBXNativeTarget "HexColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB4A593F64D7AAB38E18CC761190F5E /* Debug */,
+				AA25E0DFE9DD8E94DF4A3FDB8F1A0C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882EB4391EC2E701934974DA86F7343F /* Debug */,
+				811519CB8F683AC06F9C98B55AC40F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CFB42910790CF0BDBCCEBAACD6B9367 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCFCAA2A1E45A5769F526EBFB3EFA6B /* Debug */,
+				91A09D069B08A57054F12BAD55B30C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64775856F9E8306EBD2720DC1EAA0E68 /* Build configuration list for PBXNativeTarget "Pods-thermometer-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1A0B8CCB4743FEB2F0B4DB4901E389A /* Debug */,
+				5084E6AA501FDDD36ADEE170FB348A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E55CB147DF040ADCA4F9B0BABA3C8804 /* Build configuration list for PBXNativeTarget "Shimmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D1AD103D573FECCC1A8D40C138CA975 /* Debug */,
+				3EDAA353254A12636419F1CDA07F013D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

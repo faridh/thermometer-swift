@@ -1,0 +1,21 @@
+PODS:
+  - Alamofire (3.4.1)
+  - HexColors (2.2.1)
+  - Shimmer (1.0.2)
+  - TSMessages (0.9.12):
+    - HexColors (~> 2.2.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.4)
+  - Shimmer
+  - TSMessages
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  HexColors: abfd172e329dab59888614ccba6f216cec59289d
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+  TSMessages: c8cc7b80f2a833af533872cd02010cac061532cc
+
+PODFILE CHECKSUM: a255ef3817de978047d583b130d88e48eaffb93c
+
+COCOAPODS: 1.0.0.rc.1

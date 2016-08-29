@@ -1,17 +1,15 @@
 # Thermo
 
-The Thermo iOS app is presently written in Obj-C and should be used with Xcode 7.3. Weekend project that acts as a simple Thermometer/Weather App.
+The Thermo iOS app is presently written in Swift and should be used with Xcode 7.3. Weekend project that acts as a simple Thermometer/Weather App.
 
 
 ## Tools used
 
 Here is list of tools used in this project
 
-- [Shimmer](https://github.com/facebook/Shimmer) for simple shimmer animation effect.
-
 - [TSMessages](https://github.com/KrauseFx/TSMessages/) provides an easy way to show little notification views on the top of the screen (à la Tweetbot).
 
-- [AFNetworking](https://github.com/AFNetworking/AFNetworking) is a delightful networking library for iOS and Mac OS X.
+- [Alamofire](https://github.com/Alamofire/Alamofire) is a delightful networking library for iOS and Mac OS X.
 
 - [OpenWeatherMap.org](http://openweathermap.org/) is an online service that provides a free API for weather data, including current weather data, forecasts, and historical data to the developers of web services and mobile applications.
 
@@ -27,4 +25,8 @@ Some of the Tools use Swift, that’s why the `use_frameworks!` feature of Cocoa
 
 - Improve Documentation
 
-- Add FBShimmeringView to the other labels (animation messes up the gradient view)
+- Add FBShimmeringView as was supposed in the beginning (Check [Thermo](https://github.com/faridh/thermometer))
+
+- Migrate to MVVM instead of MVC
+
+- Improve error handling on Temperature model
