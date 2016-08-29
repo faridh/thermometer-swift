@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37807071F3DD55A6E0B72879 /* Pods_thermometer_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F7CD83078079A97C5028DE9 /* Pods_thermometer_swift.framework */; };
+		D0B7563C1D73C9E000E12DAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B7563B1D73C9E000E12DAE /* AppDelegate.swift */; };
+		D0B7563E1D73C9E000E12DAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B7563D1D73C9E000E12DAE /* ViewController.swift */; };
+		D0B756411D73C9E000E12DAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B7563F1D73C9E000E12DAE /* Main.storyboard */; };
+		D0B756431D73C9E000E12DAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B756421D73C9E000E12DAE /* Assets.xcassets */; };
+		D0B756461D73C9E000E12DAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B756441D73C9E000E12DAE /* LaunchScreen.storyboard */; };
+		D0B756511D73C9E000E12DAE /* thermometer_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B756501D73C9E000E12DAE /* thermometer_swiftTests.swift */; };
+		D0B756641D73DE8A00E12DAE /* UIColor+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B756631D73DE8A00E12DAE /* UIColor+Utils.swift */; };
+		D0B756651D73DE8A00E12DAE /* UIColor+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B756631D73DE8A00E12DAE /* UIColor+Utils.swift */; };
+		D0B756671D73E0D400E12DAE /* ViewDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B756661D73E0D400E12DAE /* ViewDecorator.swift */; };
+		D0B756681D73E0D400E12DAE /* ViewDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B756661D73E0D400E12DAE /* ViewDecorator.swift */; };
+		D0B7566A1D73E3B600E12DAE /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B756691D73E3B600E12DAE /* Temperature.swift */; };
+		D0B7566B1D73E3B600E12DAE /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B756691D73E3B600E12DAE /* Temperature.swift */; };
+		D0B7566D1D73E86800E12DAE /* APIRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B7566C1D73E86800E12DAE /* APIRequester.swift */; };
+		D0B7566E1D73E86800E12DAE /* APIRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B7566C1D73E86800E12DAE /* APIRequester.swift */; };
+		D0B756731D73EB5400E12DAE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B756721D73EB5400E12DAE /* CoreLocation.framework */; };
+		D0B756751D74ACDB00E12DAE /* TSMessagesDefaultDesign.json in Resources */ = {isa = PBXBuildFile; fileRef = D0B756741D74ACDB00E12DAE /* TSMessagesDefaultDesign.json */; };
+		D0B756761D74ACDB00E12DAE /* TSMessagesDefaultDesign.json in Resources */ = {isa = PBXBuildFile; fileRef = D0B756741D74ACDB00E12DAE /* TSMessagesDefaultDesign.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0B7564D1D73C9E000E12DAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0B756301D73C9E000E12DAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0B756371D73C9E000E12DAE;
+			remoteInfo = "thermometer-swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90ED822963F4071674324EE1 /* Pods-thermometer-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thermometer-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-thermometer-swift/Pods-thermometer-swift.release.xcconfig"; sourceTree = "<group>"; };
+		9F7CD83078079A97C5028DE9 /* Pods_thermometer_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_thermometer_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB17B942AB61DF48571EFBEB /* Pods-thermometer-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thermometer-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-thermometer-swift/Pods-thermometer-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		D0B756381D73C9E000E12DAE /* thermometer-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "thermometer-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B7563B1D73C9E000E12DAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0B7563D1D73C9E000E12DAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0B756401D73C9E000E12DAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0B756421D73C9E000E12DAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0B756451D73C9E000E12DAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0B756471D73C9E000E12DAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0B7564C1D73C9E000E12DAE /* thermometer-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "thermometer-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B756501D73C9E000E12DAE /* thermometer_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thermometer_swiftTests.swift; sourceTree = "<group>"; };
+		D0B756521D73C9E000E12DAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0B756631D73DE8A00E12DAE /* UIColor+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Utils.swift"; sourceTree = "<group>"; };
+		D0B756661D73E0D400E12DAE /* ViewDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDecorator.swift; sourceTree = "<group>"; };
+		D0B756691D73E3B600E12DAE /* Temperature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
+		D0B7566C1D73E86800E12DAE /* APIRequester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequester.swift; sourceTree = "<group>"; };
+		D0B756721D73EB5400E12DAE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D0B756741D74ACDB00E12DAE /* TSMessagesDefaultDesign.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TSMessagesDefaultDesign.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0B756351D73C9E000E12DAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B756731D73EB5400E12DAE /* CoreLocation.framework in Frameworks */,
+				37807071F3DD55A6E0B72879 /* Pods_thermometer_swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B756491D73C9E000E12DAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13DDF791ED50CBB75B1E9D0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0B756721D73EB5400E12DAE /* CoreLocation.framework */,
+				9F7CD83078079A97C5028DE9 /* Pods_thermometer_swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43346D7A785D025A15ADD6C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB17B942AB61DF48571EFBEB /* Pods-thermometer-swift.debug.xcconfig */,
+				90ED822963F4071674324EE1 /* Pods-thermometer-swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D0B7562F1D73C9E000E12DAE = {
+			isa = PBXGroup;
+			children = (
+				D0B7563A1D73C9E000E12DAE /* thermometer-swift */,
+				D0B7564F1D73C9E000E12DAE /* thermometer-swiftTests */,
+				D0B756391D73C9E000E12DAE /* Products */,
+				43346D7A785D025A15ADD6C2 /* Pods */,
+				13DDF791ED50CBB75B1E9D0D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D0B756391D73C9E000E12DAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0B756381D73C9E000E12DAE /* thermometer-swift.app */,
+				D0B7564C1D73C9E000E12DAE /* thermometer-swiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0B7563A1D73C9E000E12DAE /* thermometer-swift */ = {
+			isa = PBXGroup;
+			children = (
+				D0B7565F1D73DA7200E12DAE /* Extensions */,
+				D0B7565C1D73DA2900E12DAE /* Controller */,
+				D0B7565D1D73DA2900E12DAE /* Model */,
+				D0B7565E1D73DA2900E12DAE /* View */,
+				D0B7563B1D73C9E000E12DAE /* AppDelegate.swift */,
+				D0B7563D1D73C9E000E12DAE /* ViewController.swift */,
+				D0B7563F1D73C9E000E12DAE /* Main.storyboard */,
+				D0B756421D73C9E000E12DAE /* Assets.xcassets */,
+				D0B756441D73C9E000E12DAE /* LaunchScreen.storyboard */,
+				D0B756471D73C9E000E12DAE /* Info.plist */,
+				D0B756741D74ACDB00E12DAE /* TSMessagesDefaultDesign.json */,
+			);
+			path = "thermometer-swift";
+			sourceTree = "<group>";
+		};
+		D0B7564F1D73C9E000E12DAE /* thermometer-swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0B756501D73C9E000E12DAE /* thermometer_swiftTests.swift */,
+				D0B756521D73C9E000E12DAE /* Info.plist */,
+			);
+			path = "thermometer-swiftTests";
+			sourceTree = "<group>";
+		};
+		D0B7565C1D73DA2900E12DAE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D0B7566C1D73E86800E12DAE /* APIRequester.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D0B7565D1D73DA2900E12DAE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0B756691D73E3B600E12DAE /* Temperature.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D0B7565E1D73DA2900E12DAE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D0B756661D73E0D400E12DAE /* ViewDecorator.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0B7565F1D73DA7200E12DAE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D0B756631D73DE8A00E12DAE /* UIColor+Utils.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0B756371D73C9E000E12DAE /* thermometer-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B756551D73C9E000E12DAE /* Build configuration list for PBXNativeTarget "thermometer-swift" */;
+			buildPhases = (
+				ED7A06779F5D922E4EE2BA41 /* 📦 Check Pods Manifest.lock */,
+				D0B756341D73C9E000E12DAE /* Sources */,
+				D0B756351D73C9E000E12DAE /* Frameworks */,
+				D0B756361D73C9E000E12DAE /* Resources */,
+				CA604E151B1E63FB6D42A211 /* 📦 Embed Pods Frameworks */,
+				7EA672720462927E6F3CB6F2 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "thermometer-swift";
+			productName = "thermometer-swift";
+			productReference = D0B756381D73C9E000E12DAE /* thermometer-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0B7564B1D73C9E000E12DAE /* thermometer-swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B756581D73C9E000E12DAE /* Build configuration list for PBXNativeTarget "thermometer-swiftTests" */;
+			buildPhases = (
+				D0B756481D73C9E000E12DAE /* Sources */,
+				D0B756491D73C9E000E12DAE /* Frameworks */,
+				D0B7564A1D73C9E000E12DAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0B7564E1D73C9E000E12DAE /* PBXTargetDependency */,
+			);
+			name = "thermometer-swiftTests";
+			productName = "thermometer-swiftTests";
+			productReference = D0B7564C1D73C9E000E12DAE /* thermometer-swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0B756301D73C9E000E12DAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Phoenix;
+				TargetAttributes = {
+					D0B756371D73C9E000E12DAE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					D0B7564B1D73C9E000E12DAE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D0B756371D73C9E000E12DAE;
+					};
+				};
+			};
+			buildConfigurationList = D0B756331D73C9E000E12DAE /* Build configuration list for PBXProject "thermometer-swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0B7562F1D73C9E000E12DAE;
+			productRefGroup = D0B756391D73C9E000E12DAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0B756371D73C9E000E12DAE /* thermometer-swift */,
+				D0B7564B1D73C9E000E12DAE /* thermometer-swiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0B756361D73C9E000E12DAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B756461D73C9E000E12DAE /* LaunchScreen.storyboard in Resources */,
+				D0B756431D73C9E000E12DAE /* Assets.xcassets in Resources */,
+				D0B756751D74ACDB00E12DAE /* TSMessagesDefaultDesign.json in Resources */,
+				D0B756411D73C9E000E12DAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B7564A1D73C9E000E12DAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B756761D74ACDB00E12DAE /* TSMessagesDefaultDesign.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7EA672720462927E6F3CB6F2 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-thermometer-swift/Pods-thermometer-swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA604E151B1E63FB6D42A211 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-thermometer-swift/Pods-thermometer-swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED7A06779F5D922E4EE2BA41 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0B756341D73C9E000E12DAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B756671D73E0D400E12DAE /* ViewDecorator.swift in Sources */,
+				D0B7566D1D73E86800E12DAE /* APIRequester.swift in Sources */,
+				D0B756641D73DE8A00E12DAE /* UIColor+Utils.swift in Sources */,
+				D0B7563E1D73C9E000E12DAE /* ViewController.swift in Sources */,
+				D0B7566A1D73E3B600E12DAE /* Temperature.swift in Sources */,
+				D0B7563C1D73C9E000E12DAE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B756481D73C9E000E12DAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B7566E1D73E86800E12DAE /* APIRequester.swift in Sources */,
+				D0B756511D73C9E000E12DAE /* thermometer_swiftTests.swift in Sources */,
+				D0B756651D73DE8A00E12DAE /* UIColor+Utils.swift in Sources */,
+				D0B7566B1D73E3B600E12DAE /* Temperature.swift in Sources */,
+				D0B756681D73E0D400E12DAE /* ViewDecorator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0B7564E1D73C9E000E12DAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0B756371D73C9E000E12DAE /* thermometer-swift */;
+			targetProxy = D0B7564D1D73C9E000E12DAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0B7563F1D73C9E000E12DAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B756401D73C9E000E12DAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0B756441D73C9E000E12DAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B756451D73C9E000E12DAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0B756531D73C9E000E12DAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0B756541D73C9E000E12DAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0B756561D73C9E000E12DAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB17B942AB61DF48571EFBEB /* Pods-thermometer-swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "thermometer-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faridh.thermometer-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0B756571D73C9E000E12DAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90ED822963F4071674324EE1 /* Pods-thermometer-swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "thermometer-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faridh.thermometer-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D0B756591D73C9E000E12DAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "thermometer-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faridh.thermometer-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/thermometer-swift.app/thermometer-swift";
+			};
+			name = Debug;
+		};
+		D0B7565A1D73C9E000E12DAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "thermometer-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faridh.thermometer-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/thermometer-swift.app/thermometer-swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0B756331D73C9E000E12DAE /* Build configuration list for PBXProject "thermometer-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B756531D73C9E000E12DAE /* Debug */,
+				D0B756541D73C9E000E12DAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B756551D73C9E000E12DAE /* Build configuration list for PBXNativeTarget "thermometer-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B756561D73C9E000E12DAE /* Debug */,
+				D0B756571D73C9E000E12DAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B756581D73C9E000E12DAE /* Build configuration list for PBXNativeTarget "thermometer-swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B756591D73C9E000E12DAE /* Debug */,
+				D0B7565A1D73C9E000E12DAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0B756301D73C9E000E12DAE /* Project object */;
+}
